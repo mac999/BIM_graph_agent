@@ -45,19 +45,19 @@ BIM graph agent with data processing system that converts IFC files to Neo4j gra
    <img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/db1.jpg" height="300"></img>
 </p>
 
-1. Clone or download this project
-2. Install required packages:
+2. Clone or download this project
+3. Install required packages:
    ```bash
    pip install -r requirements.txt
    ```
-3. Configure environment variables in `.env` file:
+4. Configure environment variables in `.env` file:
    ```
    NEO4J_URI=bolt://localhost:7687
    NEO4J_USER=neo4j
    NEO4J_PASSWORD=your_password
    NEO4J_DATABASE=elements
    ```
-4. Install and setup Ollama for BIM Graph Agent:
+5. Install and setup Ollama for BIM Graph Agent:
    ```bash
    # Install Ollama from https://ollama.ai
    
@@ -241,6 +241,7 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
 
