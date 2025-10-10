@@ -149,6 +149,8 @@ The web app will automatically open in your browser at `http://localhost:8501`
 - Find all load-bearing walls
 
 **TBD (Relationship Queries etc)**
+To successfully query the questions below, the RAG pipeline must be fine-tuned, including prompt templates, database schema context, LLM refinements, function calls, etc.
+
 - Find all spaces on the Level 2
 - Show me walls with thickness greater than 200mm
 - What elements are connected to this wall?
@@ -471,6 +473,7 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
 
