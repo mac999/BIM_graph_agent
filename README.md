@@ -111,27 +111,27 @@ python BIM_graph_expert.py
 #### Example Queries
 
 **Basic Element Queries:**
-- "How many walls are in the building?"
-- "Show me all doors in the project"
-- "List all windows with their properties"
+- How many walls are in the building?
+- Show me all doors in the project
+- List all windows with their properties
 
 **Property-Specific Queries:**
-- "What is the area of room A204?"
-- "Find all spaces on the second floor"
-- "Show me walls with thickness greater than 200mm"
+- What is the area of room A204?
+- Find all spaces on the second floor
+- Show me walls with thickness greater than 200mm
 
 **File and Metadata Queries:**
-- "What IFC files are loaded in the database?"
-- "Show me the file information for this model"
+- What IFC files are loaded in the database?
+- Show me the file information for this model
 
 **Relationship Queries:**
-- "What elements are connected to this wall?"
-- "Find all elements that belong to the ground floor"
+- What elements are connected to this wall?
+- Find all elements that belong to the ground floor
 
 **Advanced Analysis:**
-- "Calculate total floor area by level"
-- "Find all load-bearing walls"
-- "List all mechanical equipment in the building"
+- Calculate total floor area by level
+- Find all load-bearing walls
+- List all mechanical equipment in the building
 
 ## Project Structure
 
@@ -241,6 +241,7 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
 
