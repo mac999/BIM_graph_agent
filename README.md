@@ -202,8 +202,11 @@ The application provides:
 - Real-time progress logging
 - Conversion statistics (node/relationship counts)
 - Element type distribution
-- Validation results (optional)
 - Comprehensive error handling and reporting
+
+<p align="center">
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img10.jpg" height="300"> </img>
+</p>
 
 ## BIM Graph Agent Architecture
 
@@ -475,5 +478,6 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
