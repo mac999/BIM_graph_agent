@@ -14,16 +14,11 @@ BIM graph agent with data processing system that converts IFC files to Neo4j gra
 - **IFC to Graph Conversion**: Automatically processes IFC files and converts them to Neo4j graph database
 - **Data Integrity**: Accurately converts IFC elements and relationships without data loss
 - **File Metadata Management**: Stores and links IFC file information with graph structure
-- **Robust Processing**: Handles large files and exception cases with minimal memory usage
-- **Modular Architecture**: Easy integration with other BIM processing pipelines
 
 ### BIM Graph Agent (AI-Powered Expert System)
 - **Natural Language Querying**: Ask questions about BIM data in plain English or Korean
-- **Intelligent Query Processing**: Converts natural language to optimized Cypher queries
 - **Smart Property Analysis**: Analyzes nested JSON properties regardless of modeling tool
-- **Multi-Tool Compatibility**: Works with models from Revit, ArchiCAD, Tekla, and other BIM tools
 - **Interactive Console Interface**: Real-time conversational interface for BIM data exploration
-- **Contextual Responses**: Provides detailed explanations with data sources and units
 
 ## Requirements
 
@@ -242,6 +237,7 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
 
