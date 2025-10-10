@@ -70,12 +70,7 @@ BIM graph agent with data processing system that converts IFC files to Neo4j gra
 
 ## Usage
 
-### Basic Usage
-```bash
-python import_ifc.py
-```
-
-### Command Line Options
+### Create elements graph databsae in Neo4j from input IFC files
 ```bash
 python import_ifc.py [options]
 
@@ -88,8 +83,6 @@ Options:
   --stats             Output statistics after conversion completion
   --help              Show help message
 ```
-
-### Examples
 
 Convert all IFC files in the input directory:
 ```bash
@@ -249,6 +242,7 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
 
