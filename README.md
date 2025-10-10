@@ -4,6 +4,8 @@ BIM graph agent with data processing system that converts IFC files to Neo4j gra
 
 <p align="center">
 <img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img1.jpg" height="300"> </img>
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img2.jpg" height="300"> </img>
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img3.jpg" height="300"> </img>
 </p>
 
 ## Features
@@ -259,3 +261,4 @@ The BIM Graph Agent is an advanced AI system that enables natural language query
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
