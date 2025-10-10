@@ -217,20 +217,13 @@ The BIM Graph Agent is AI system that enables natural language querying of BIM g
 2. **Smart Query Generation**: qwen2.5-coder:7b model creates optimized Cypher queries
 3. **Graph Data Retrieval**: Executes queries against Neo4j elements database
 4. **Intelligent Property Analysis**: Analyzes nested JSON properties from any modeling tool
-5. **Contextual Response Generation**: Provides detailed answers with data sources and units
 
-### Key Capabilities
-- **Universal Property Support**: Analyzes properties from any BIM modeling tool (Revit, ArchiCAD, Tekla, etc.)
-- **Multi-Language Support**: Handles English and Korean property names and queries
+### Features
 - **Smart Schema Detection**: Automatically adapts to different IFC modeling approaches
-- **Performance Optimization**: Single LLM model approach eliminates memory switching overhead
 - **Interactive Learning**: Shows generated Cypher queries for educational purposes
-
-### Advanced Features
 - **Flexible Property Matching**: Finds area, volume, and other properties regardless of naming conventions
 - **Cross-Tool Compatibility**: Works with models from different BIM software vendors
 - **Intelligent Fallback**: Returns full property JSON when specific paths are unavailable
-- **Real-Time Analysis**: Processes queries and responses in real-time conversation flow
 
 ### Usage Guidelines
 - Ask questions in natural language (no technical Cypher knowledge required)
@@ -248,8 +241,8 @@ The BIM Graph Agent is AI system that enables natural language querying of BIM g
 - Natural language interface without technical knowledge requirement
 - Educational value through Cypher query visualization
 
-**Performance Bottlenecks:**
-- **Response Time**: 10+ seconds (RTX 3090 12GB VRAM limitation)
+**Performance Bottlenecks situation:**
+- **Response Time**: 10+ seconds (RTX 8GB VRAM limitation)
 - **Model Size**: qwen2.5-coder:7b (4.7GB) loading overhead
 - **Memory Constraints**: Single GPU VRAM limitations
 - **Concurrent Users**: Limited to single-user sessions
@@ -478,6 +471,7 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
 
