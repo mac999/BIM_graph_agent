@@ -48,6 +48,13 @@ BIM graph agent with data processing system that converts IFC files to Neo4j gra
    ```bash
    pip install -r requirements.txt
    ```
+   
+   Required packages include:
+   - `ifcopenshell` - IFC file parsing
+   - `neo4j` - Neo4j database driver
+   - `langchain` ecosystem - AI framework
+   - `ollama` - Local LLM integration
+   - `streamlit` - Web interface framework
 4. Configure environment variables in `.env` file:
    ```
    NEO4J_URI=bolt://localhost:7687
@@ -94,10 +101,26 @@ python import_ifc.py --clear-db --log-level DEBUG --validate
 
 ### BIM Graph Agent (AI Expert System)
 
-Launch the AI-powered natural language interface:
+#### Console Interface
+
+Launch the AI-powered natural language console interface:
 ```bash
-python BIM_graph_expert.py
+python BIM_graph_agent.py
 ```
+
+#### Web Interface
+
+Launch the Streamlit web application for a user-friendly interface:
+```bash
+streamlit run BIM_graph_agent_web.py
+```
+
+The web app will automatically open in your browser at `http://localhost:8501`
+
+**Web App Features:**
+- Dark mode chatbot interface
+- Real-time query processing
+- Markdown rendering for formatted responses
 
 #### Example Queries
 
@@ -240,23 +263,3 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
