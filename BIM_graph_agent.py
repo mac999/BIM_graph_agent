@@ -221,7 +221,7 @@ class BIMGraphAgent:
 			print("Using qwen2.5-coder:7b for response generation too (single model approach)...")
 			self.response_generator = ChatOllama(
 				model="qwen2.5-coder:7b",
-				temperature=0.5,  # Slightly higher temperature for natural responses
+				temperature=0.2,  # Slightly higher temperature for natural responses
 				base_url="http://localhost:11434"
 			)
 			
