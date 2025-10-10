@@ -40,6 +40,10 @@ BIM graph agent with data processing system that converts IFC files to Neo4j gra
 - Internet connection for initial model download
 
 ## Installation
+1. Create elements database in Neo4j like below
+<p align="center">
+   <img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/db1.jpg" height="300"></img>
+</p>
 
 1. Clone or download this project
 2. Install required packages:
@@ -145,7 +149,6 @@ BIM_graph_rag/
 ├── .env                        # Environment configuration
 ├── import_ifc.py              # Main CLI application
 ├── BIM_graph_expert.py        # BIM Graph Agent (AI expert system)
-├── test_basic.py              # Basic functionality tests
 └── README.md                  # This file
 ```
 
@@ -179,41 +182,6 @@ The application provides:
 - Validation results (optional)
 - Comprehensive error handling and reporting
 
-## Troubleshooting
-
-### Common Issues
-
-1. **Neo4j Connection Failed**
-   - Ensure Neo4j is running
-   - Check connection settings in `.env` file
-   - Verify database credentials
-
-2. **IFC File Parsing Failed**
-   - Check if IFC file is valid (IFC2x3 or IFC4 schema)
-   - Ensure file is not corrupted
-   - Check file permissions
-
-3. **Memory Issues with Large Files**
-   - Increase available system memory
-   - Process files individually if needed
-
-### Log Files
-Log files are automatically created in the `logs/` directory with timestamps for troubleshooting.
-
-## Development
-
-### Adding New IFC Element Types
-Modify the `IFCParser.extract_elements()` method to handle additional IFC types.
-
-### Extending Graph Relationships
-Add new relationship types in the `Neo4jDatabase._create_relationship_tx()` method.
-
-### Custom Property Extraction
-Enhance the `IFCParser._extract_properties()` method for specific PropertySet handling.
-
-## License
-
-This project is developed for BIM data processing and graph analysis purposes.
 
 ## BIM Graph Agent Architecture
 
@@ -245,22 +213,35 @@ The BIM Graph Agent is an advanced AI system that enables natural language query
 - Property queries automatically search through all available property sets
 - The system shows the generated Cypher query and data sources for transparency
 
-## Version History
+## Troubleshooting
 
-- **v1.1.0**: Added AI-powered BIM Graph Expert system
-  - Natural language querying with LangChain
-  - Dual LLM architecture (qwen2.5-coder + gemma2)
-  - Interactive console interface
-  - Automatic Cypher query generation
-- **v1.0.0**: Initial release with basic IFC to Neo4j conversion
-  - File metadata storage and linking
-  - Comprehensive error handling
-  - Multi-language support (English interface)
-  - Modular architecture
+### Common Issues
+
+1. **Neo4j Connection Failed**
+   - Ensure Neo4j is running
+   - Check connection settings in `.env` file
+   - Verify database credentials
+
+2. **IFC File Parsing Failed**
+   - Check if IFC file is valid (IFC2x3 or IFC4 schema)
+   - Ensure file is not corrupted
+   - Check file permissions
+
+3. **Memory Issues with Large Files**
+   - Increase available system memory
+   - Process files individually if needed
+
+### Log Files
+Log files are automatically created in the `logs/` directory with timestamps for troubleshooting.
+
+## License
+
+This project is developed for BIM data processing and graph analysis purposes.
 
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
 
