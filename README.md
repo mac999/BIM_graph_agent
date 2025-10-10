@@ -1,6 +1,6 @@
 # BIM Graph Agent
 
-BIM graph agent with data processing system that converts IFC files to Neo4j graph database and provides AI-powered natural language querying capabilities. This project is example and demonstration to show how to use graph database like neo4j as the viewpoint of RAG and AI Agent development.
+BIM graph agent with data processing system that converts IFC files to Neo4j graph database and provides AI-powered natural language querying capabilities. This project is example and demonstration to show how to use graph database like neo4j as the viewpoint of RAG and AI Agent development. If you want to understand graph database like Neo4j and GraphRAG, please refer to [Developing a data query service based on the graph database Neo4J Blog](https://daddynkidsmakers.blogspot.com/2024/05/neo4j.html)
 
 <p align="center">
 <img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img2.jpg" width="750"> </img></br>
@@ -263,3 +263,4 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
