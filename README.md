@@ -114,13 +114,22 @@ python BIM_graph_expert.py
 - How many walls are in the building?
 - Show me all doors in the project
 - List all windows with their properties
+<p align="center">
+   <img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img4.jpg" height="200"></img>
+</p>
 
 **Property-Specific Queries:**
 - What is the area of room A204?
+<p align="center">
+   <img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img5.jpg" height="200"></img>
+</p>
 
 **File and Metadata Queries:**
 - What IFC files are loaded in the database?
 - Show me the file information for this model
+<p align="center">
+   <img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img6.jpg" height="200"></img>
+</p>
 
 **Advanced Analysis:**
 - Find all load-bearing walls
@@ -240,6 +249,7 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
 
