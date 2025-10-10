@@ -1,0 +1,7 @@
+ifcopenshell
+neo4j
+python-dotenv
+langchain
+langchain-community
+langchain-ollama
+ollama
