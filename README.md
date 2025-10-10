@@ -5,7 +5,10 @@ BIM graph agent with data processing system that converts IFC files to Neo4j gra
 <p align="center">
 <img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img2.jpg" width="750"> </img></br>
 <img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img1.jpg" height="200"> </img>
-<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img3.jpg" height="200"> </img>
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img3.jpg" height="200"> </img></br>
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img9.jpg" width="750"> </img>
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img7.jpg" height="200"> </img>
+<img src="https://github.com/mac999/BIM_graph_agent/blob/main/doc/img8.jpg" height="200"> </img>
 </p>
 
 ## Features
@@ -237,6 +240,7 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
 
