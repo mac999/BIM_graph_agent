@@ -117,20 +117,20 @@ python BIM_graph_expert.py
 
 **Property-Specific Queries:**
 - What is the area of room A204?
-- Find all spaces on the second floor
-- Show me walls with thickness greater than 200mm
 
 **File and Metadata Queries:**
 - What IFC files are loaded in the database?
 - Show me the file information for this model
 
-**Relationship Queries:**
+**Advanced Analysis:**
+- Find all load-bearing walls
+
+**TBD (Relationship Queries etc)**
+- Find all spaces on the Level 2
+- Show me walls with thickness greater than 200mm
 - What elements are connected to this wall?
 - Find all elements that belong to the ground floor
-
-**Advanced Analysis:**
 - Calculate total floor area by level
-- Find all load-bearing walls
 - List all mechanical equipment in the building
 
 ## Project Structure
@@ -181,7 +181,6 @@ The application provides:
 - Element type distribution
 - Validation results (optional)
 - Comprehensive error handling and reporting
-
 
 ## BIM Graph Agent Architecture
 
@@ -241,6 +240,7 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
 
 
