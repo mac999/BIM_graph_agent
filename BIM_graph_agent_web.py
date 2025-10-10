@@ -105,7 +105,7 @@ if not st.session_state.initialized:
         if st.session_state.agent:
             st.session_state.messages.append({
                 "role": "assistant", 
-                "content": "Hello! Ask me about your BIM data. Examples: List all windows with their properties, What is the area of room A204, Show me all doors in the project"
+                "content": "Hello! Ask me about your BIM data. Examples: List all windows with their properties, What is the area of room A204, Show me all doors in the project, What are the properties of room A204"
             })
 
 # Only show chat interface if agent is initialized
