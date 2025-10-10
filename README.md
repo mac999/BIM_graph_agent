@@ -207,7 +207,7 @@ The application provides:
 
 ## BIM Graph Agent Architecture
 
-The BIM Graph Agent is an advanced AI system that enables natural language querying of BIM graph data with intelligent property analysis.
+The BIM Graph Agent is AI system that enables natural language querying of BIM graph data with intelligent property analysis.
 
 ### System Architecture
 1. **Natural Language Processing**: User enters questions in English or Korean
@@ -475,4 +475,5 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
 
