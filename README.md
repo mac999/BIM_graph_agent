@@ -270,16 +270,6 @@ ollama pull qwen2.5-coder:7b-q4_0  # ~2.5GB
 
 #### 2. High-Performance Inference Libraries
 
-**llama-cpp-python (Recommended for Simplicity):**
-- Direct model loading without Ollama overhead
-- Automatic CPU/GPU detection and optimization
-- GGUF quantized model support (4-8bit)
-- 50-70% performance improvement with minimal setup
-
-```bash
-pip install llama-cpp-python
-```
-
 **vLLM (Maximum Performance):**
 - 2-5x inference speed improvement
 - Advanced memory management and optimization
@@ -288,6 +278,16 @@ pip install llama-cpp-python
 
 ```bash
 pip install vllm>=0.2.0
+```
+
+**llama-cpp-python (Recommended for Simplicity):**
+- Direct model loading without Ollama overhead
+- Automatic CPU/GPU detection and optimization
+- GGUF quantized model support (4-8bit)
+- 50-70% performance improvement with minimal setup
+
+```bash
+pip install llama-cpp-python
 ```
 
 **Optimum (Hugging Face Integration):**
@@ -302,32 +302,15 @@ pip install optimum[onnxruntime-gpu]
 #### 3. Hardware Scaling
 
 **Multi-GPU Configuration:**
-- RTX 3090 x2 setup for parallel processing
+- Multi GPU setup for parallel processing
 - vLLM tensor parallelism support
 - 80-90% performance improvement potential
 
-### Performance Improvement Roadmap
-
-| Phase | Duration | Methods | Expected Improvement | Cost |
-|-------|----------|---------|---------------------|------|
-| **Phase 1** | 1-2 days | llama-cpp-python + Lightweight models | 50-60% (10s → 4-5s) | Free |
-| **Phase 2** | 1 week | vLLM or Optimum integration | 70-80% (10s → 2-3s) | Free |
-| **Phase 3** | 1 month | Multi-GPU + Model fine-tuning | 85% (10s → 1.5s) | $1000+ |
-
-### Recommended Quick Wins
+### Consideration
 
 1. **Switch to llama-cpp-python** - Direct model loading, 50% speed boost
 2. **Use qwen2.5-coder:3b or quantized models** - Immediate memory and speed improvement
 3. **Optimize system settings** - Neo4j indexing and Ollama configuration
-
-### Library Comparison
-
-| Library | Setup Complexity | Performance Gain | Memory Savings | Stability |
-|---------|------------------|------------------|----------------|-----------|
-| **llama-cpp-python** | Very Easy | 50-70% | 30% | High |
-| **Optimum** | Easy | 30-50% | 20% | High |
-| **vLLM** | Moderate | 70-200% | 10% | Good |
-| **CTranslate2** | Easy | 80-150% | 25% | High |
 
 ### Alternative Solutions
 
@@ -335,7 +318,7 @@ pip install optimum[onnxruntime-gpu]
 - OpenAI GPT-4 or Anthropic Claude API
 - Sub-second response times
 - Monthly cost: $50-200 depending on usage
-- 95%+ performance improvement
+- Performance improvement
 
 **Dedicated Inference Server:**
 - vLLM or llama-cpp-python server deployment
@@ -412,16 +395,6 @@ CREATE TABLE ifc_elements (
 - **Horizontal Scaling**: Large datasets across multiple servers
 - **JSON-native Operations**: Direct property manipulation
 
-### Performance Comparison
-
-| Query Type | Neo4j | MySQL | MongoDB | PostgreSQL |
-|------------|-------|-------|---------|------------|
-| **1-2 hop relationships** | 10ms | 5ms | 8ms | 6ms |
-| **10+ hop traversals** | 50ms | 10s+ | N/A | 15s+ |
-| **Property aggregations** | 100ms | 20ms | 30ms | 25ms |
-| **Full-text search** | Limited | Good | Excellent | Excellent |
-| **Complex analytics** | Limited | Excellent | Good | Excellent |
-
 ### Selection Decision Matrix
 
 #### Choose **Neo4j** when:
@@ -454,16 +427,6 @@ class HybridBIMAgent:
         else:
             return self.mysql_engine.process(query)  # Standard queries
 ```
-
-### Recommended Architecture
-
-**For BIM Projects:**
-
-1. **Education/Demo**: Neo4j Community (free) - Good for learning graph concepts
-2. **Small Projects**: MySQL + JSON properties - Cost-effective and sufficient
-3. **Medium Projects**: PostgreSQL + specialized graph queries when needed
-4. **Large Enterprise**: Hybrid approach - MySQL primary + Neo4j for complex analysis
-5. **Research Projects**: Neo4j Enterprise - Advanced graph analytics capabilities
 
 ### Migration Considerations
 
@@ -512,3 +475,4 @@ This project is developed for BIM data processing and graph analysis purposes.
 ## Author
 
 Taewook Kang (laputa99999@gmail.com)
+
