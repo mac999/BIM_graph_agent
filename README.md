@@ -3,7 +3,7 @@
 BIM graph agent with data processing system that converts IFC files to Neo4j graph database and provides AI-powered natural language querying capabilities. This project is example and demonstration to show how to use graph database like neo4j as the viewpoint of RAG and AI Agent development.
 
 In reference, you can find the below. 
-- [Graph RAG with FalkorDB](https://github.com/mac999/LLM-RAG-Agent-Tutorial/tree/main/4-3.db/3_graph_falkor)
+- [Graph BIM RAG with FalkorDB](https://github.com/mac999/LLM-RAG-Agent-Tutorial/tree/main/4-3.db/3_graph_falkor)
 - [BIM LLM Code Agent](https://github.com/mac999/BIM_LLM_code_agent)
 
 <p align="center">
